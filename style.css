@@ -1,6 +1,6 @@
 :root {
   font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  font-feature-settings: 'liga' 1, 'calt' 1;
 }
 
 @supports (font-variation-settings: normal) {
@@ -76,7 +76,7 @@ body {
 }
 
 .subpage-title {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 400;
   color: #8F7B7B;
   margin-bottom: 2rem;
@@ -95,6 +95,39 @@ body {
 }
 
 .subpage-list li a:hover {
+  color: #8F7B7B;
+}
+
+/* Collection Subpage */
+.subpage-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.subpage-column h2 {
+  font-size: 2rem;
+  color: #8F7B7B;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.subpage-column {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+.subpage-column li a {
+  text-decoration: none;
+  color: #222;
+  transition: color 0.2s ease;
+}
+
+.subpage-column li a:hover {
   color: #8F7B7B;
 }
 
