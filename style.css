@@ -156,8 +156,7 @@ body {
 }
 
 .subpage-image {
-  width: 260px;
-  max-width: 750;
+  width: 400px;
   height: auto;
   border-radius: 16px;
 
@@ -168,8 +167,8 @@ body {
 }
 
 .subpage-right {
-  line-height: 1.7;
-  font-size: 1rem;
+  line-height: 1.6;
+  font-size: 1.2rem;
   color: #222;
   margin-bottom: 1.5rem;
 }
