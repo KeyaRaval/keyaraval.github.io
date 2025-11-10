@@ -15,11 +15,6 @@ body {
   margin: auto;
 }
 
-::selection {
-  background: rgb(246, 205, 20);
-  color: white;
-}
-
 /* Intro section */
 .intro {
   display: flex;
@@ -151,48 +146,6 @@ body {
 .subpage-column li a:hover {
   color: #8F7B7B;
 }
-
-.subpage-about {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 2.5rem;
-  margin-top: 2rem;
-  max-width: 900px;
-}
-
-.subpage-image {
-  width: 260px;
-  height: auto;
-  border-radius: 16px;
-
-}
-
-.subpage-about-text {
-  flex: 1;
-  flex-wrap: wrap;
-}
-
-.subpage-right {
-  line-height: 1.6;
-  font-size: 1.2rem;
-  color: #222;
-  margin-bottom: 1.6rem;
-}
-
-.social-links {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1.6rem;
-  justify-content: left;
-}
-
-.social-links a:hover svg {
-  transform: scale(1.2);
-  transition: transform 0.2s ease
-}
-
 
 /* Footer layout */
 .subpage-footer {
